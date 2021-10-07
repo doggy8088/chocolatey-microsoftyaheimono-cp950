@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <version>0.1.0</version>
+    <id>MicrosoftYaHeiMono-CP950</id>
+    <title>Microsoft YaHei Mono with CP950 charset</title>
+    <packageSourceUrl>https://github.com/doggy8088/chocolatey-microsoftyaheimono-cp950.git</packageSourceUrl>
+    <iconUrl>https://raw.githubusercontent.com/doggy8088/chocolatey-microsoftyaheimono-cp950/main/icon.png</iconUrl>
+    <owners>Will 保哥</owners>
+    <authors>Will 保哥</authors>
+    <projectUrl>https://github.com/doggy8088/chocolatey-microsoftyaheimono-cp950</projectUrl>
+    <projectSourceUrl>https://github.com/doggy8088/chocolatey-microsoftyaheimono-cp950.git</projectSourceUrl>
+    <copyright>Will 保哥</copyright>
+    <licenseUrl>https://github.com/doggy8088/chocolatey-microsoftyaheimono-cp950/blob/main/tools/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://github.com/doggy8088/chocolatey-microsoftyaheimono-cp950/</docsUrl>
+    <bugTrackerUrl>https://github.com/doggy8088/chocolatey-microsoftyaheimono-cp950/issues</bugTrackerUrl>
+    <tags>font Microsoft YaHei Mono CP950</tags>
+    <summary>Microsoft YaHei Mono font with CP950 charset</summary>
+    <description>This package mainly provide **Microsoft YaHei Mono** font with additional **CP950** (Traditional Chinese) flag. So that you can use the font with non-Unicode apps such as Command Prompt or Windows PowerShell, etc.</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <dependencies>
+      <dependency id="chocolatey-font-helpers.extension" version="0.0.3.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\*.ps1" target="tools"/>
+    <file src="files\*" target="files" />
+  </files>
+</package>
